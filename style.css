@@ -19,10 +19,10 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-ul.topnav-left li {
+ul.topnav li {
     list-style: none;
     float: left;
 }
-ul.topnav-right {
+ul.topnav li.topnav-right {
     float: right;
 }
