@@ -35,3 +35,7 @@ ul.topnav li a {
     text-transform: uppercase;
     color: #666;
 }
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: #fff;
+}
