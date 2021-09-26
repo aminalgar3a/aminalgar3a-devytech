@@ -23,6 +23,6 @@ ul.topnav-left li {
     list-style: none;
     float: left;
 }
-.topnav-right {
+ul.topnav-right {
     float: right;
 }
