@@ -33,5 +33,7 @@ img {
 button {
     color: #fff;
     background: gray;
+    height: 10px;
+    width: 10px;
     border-radius: 8px;
 }
