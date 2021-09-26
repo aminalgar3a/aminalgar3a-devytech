@@ -44,7 +44,7 @@ ul.topnav li.dropDownIcon {
 }
 /*########## Mobile ##########*/
 @media screen and (max-width:600px) {
-    ul.topnav li{
+    ul.topnav li:not(:nth-child(1)){
         display: none;
     }
 }
