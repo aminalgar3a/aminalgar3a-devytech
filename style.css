@@ -42,3 +42,9 @@ ul.topnav li a:hover {
 ul.topnav li.dropDownIcon {
     display: none;
 }
+/*########## Mobile ##########*/
+@media screen and (max-width:680px) {
+    ul.topnav li{
+        display: none;
+    }
+}
