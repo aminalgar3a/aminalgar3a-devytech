@@ -39,3 +39,6 @@ ul.topnav li a:hover {
     background-color: #0080ff;
     color: #fff;
 }
+ul.topnav li.dropDownIcon {
+    display: none;
+}
