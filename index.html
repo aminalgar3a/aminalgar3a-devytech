@@ -6,7 +6,7 @@
     </head>
     <body>
         <nav>
-            <ul class="topnav">
+            <ul class="topnav" id="dropDownClick">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#news">News</a></li>
@@ -14,10 +14,20 @@
                 <li class="topnav-right"><a href="#signup">Sign Up</a></li>
                 <li class="topnav-right"><a href="#signin">Sign In</a></li>
                 
-                <li class="dropDownIcon"><a href="">&#9776;</a></li>
+                <li class="dropDownIcon"><a href="javascript:void(0)" onclick="dropDownMenu()">&#9776;</a></li>
             </ul>
         </nav>
-
+        <script>
+            function dropDownMenu() {
+                var x = document.getElementById("dropDownClick")
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                }
+                else {
+                    x.className = "topnav"
+                }
+            }
+        </script>
 
     </body>
 </html>
