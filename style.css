@@ -79,7 +79,7 @@ ul.topnav li.dropDownIcon {
     background: -moz-linear-gradient(#0080ff,#65a5ff);
     background: linear-gradient(#0080ff,#65a5ff);
 }
-h1.large {
+h2.large {
     color: aliceblue;
     font-size: 56%;
     margin: 0;
