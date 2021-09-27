@@ -14,6 +14,29 @@ body {
     padding-top: 4%;
     padding-bottom: 4%;
 }
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-1 {width: 83.33%;}
+.col-1 {width: 91.66%;}
+.col-1 {width: 100%;}
 /*########## Nav bar ########## */
 nav {
     width: 100%;
@@ -56,6 +79,27 @@ ul.topnav li.dropDownIcon {
     background: -moz-linear-gradient(#0080ff,#65a5ff);
     background: linear-gradient(#0080ff,#65a5ff);
 }
+h1.large {
+    color: aliceblue;
+    font-size: 56%;
+    margin: 0;
+    line-height: 100px;
+}
+input[type="text"] {
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+}
+input[type="password"] {
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+}
+
+
+
+
+
 /*########## Mobile ##########*/
 @media screen and (max-width:600px) {
     ul.topnav li:not(:nth-child(1)){
