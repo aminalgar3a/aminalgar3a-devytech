@@ -85,7 +85,7 @@ h2.large {
     margin: 0;
     line-height: 100px;
 }
-input[type="text"] {
+input[type="email"] {
     font-size: 20px;
     width: 400px;
     min-width: 100px;
