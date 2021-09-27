@@ -8,6 +8,12 @@ body {
     line-height: 1;
     margin: 0;
 }
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
 /*########## Nav bar ########## */
 nav {
     width: 100%;
@@ -41,6 +47,14 @@ ul.topnav li a:hover {
 }
 ul.topnav li.dropDownIcon {
     display: none;
+}
+/*########## Custom Styles ###########*/
+#section-1-gradient {
+    background:#0080ff;
+    background: -webkit-linear-gradient(#0080ff,#65a5ff); 
+    background: -o-linear-gradient(#0080ff,#65a5ff);
+    background: -moz-linear-gradient(#0080ff,#65a5ff);
+    background: linear-gradient(#0080ff,#65a5ff);
 }
 /*########## Mobile ##########*/
 @media screen and (max-width:600px) {
