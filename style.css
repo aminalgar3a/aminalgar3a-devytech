@@ -79,7 +79,7 @@ ul.topnav li.dropDownIcon {
     background: -moz-linear-gradient(#0080ff,#65a5ff);
     background: linear-gradient(#0080ff,#65a5ff);
 }
-.leftSide-col {
+.col-6 .leftSide-col {
     margin-left: 30px;
 
 }
