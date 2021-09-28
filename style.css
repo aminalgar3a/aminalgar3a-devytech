@@ -80,13 +80,13 @@ ul.topnav li.dropDownIcon {
     background: linear-gradient(#0080ff,#65a5ff);
 }
 .leftSide-col {
-    margin: 30%;
-    padding-top: 10%;
+    margin: 30px;
+
 }
 
 h1.large {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
     line-height: 100px;
 }
