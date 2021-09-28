@@ -79,16 +79,24 @@ ul.topnav li.dropDownIcon {
     background: -moz-linear-gradient(#0080ff,#65a5ff);
     background: linear-gradient(#0080ff,#65a5ff);
 }
+.leftSide-col {
+    margin: 30%;
+}
+
 h1.large {
     color: #fff;
     font-size: 56px;
     margin: 0;
     line-height: 100px;
 }
+form h2 {
+    color: #fff;
+}
 input[type="email"] {
     font-size: 20px;
     width: 400px;
     min-width: 100px;
+    padding: 5px;
 }
 input[type="password"] {
     font-size: 20px;
